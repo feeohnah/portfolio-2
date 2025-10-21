@@ -1,5 +1,7 @@
 ---
 
+const pageTitle = "Work page";
+
 ---
 
 <html lang="en">
@@ -8,7 +10,7 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Independent Designer / Fiona McDougall</title>
+		<title>{pageTitle}</title>
 	</head>
 <body>
 
@@ -16,10 +18,13 @@
 <a href="/about/">About</a>
 <a href="/work/">Work</a>
 
-<h1>Work</h1>
-<h2>... and my new Astro site!</h2>
+<h1>{pageTitle}</h1>
 
-  <p>My work</p>
+<ul>
+	<li><a href="/work/work-1/">Work 1</a></li>
+	<li><a href="/work/work-2/">Work 2</a></li>
+	<li><a href="/work/work-3/">Work 3</a></li>
+</ul>
 
 </body>
 </html>
