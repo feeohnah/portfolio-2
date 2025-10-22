@@ -5,10 +5,17 @@ html {
 
 body {
   margin: 0 auto;
+  min-height: 100vh;
   width: 100%;
   max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
 }
 
 * {
@@ -27,6 +34,8 @@ h1 {
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 40px;
 }
 
 .work-post a {
@@ -91,4 +100,10 @@ h1 {
   .menu {
     display: none;
   }
+}
+
+/* footer styles */
+
+.footer {
+  min-height: 50px;
 }
