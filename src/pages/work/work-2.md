@@ -1,6 +1,8 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Work
 author: Astro Learner
+background: #b6fcd5
 description: "After learning some Astro, I couldn't stop!"
 image:
     url: "https://docs.astro.build/assets/arc.webp"

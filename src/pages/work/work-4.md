@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Third Work
+title: My Fourth Work
 author: Astro Learner
-background: #0000ff
+background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"
 image:
     url: "https://docs.astro.build/assets/rays.webp"

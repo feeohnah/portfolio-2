@@ -1,5 +1,6 @@
 ---
 
+import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/global.css';
 
 const pageTitle = "Independent Designer / Fiona McDougall";
@@ -21,31 +22,8 @@ const skillColor = "crimson";
 
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-		<style define:vars={{skillColor}}>
-      h1 {
-        color: purple;
-        font-size: 4rem;
-      }
-			.skill {
-    color: var(--skillColor);
-    font-weight: bold;
-  }
-    </style>
-	</head>
-<body>
+<BaseLayout pageTitle={pageTitle}>
 
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/work/">Work</a>
-
-<h1>{pageTitle}</h1>
 <h2>... and my new Astro site!</h2>
 
 <p>Here are a few facts about me:</p>
@@ -66,5 +44,15 @@ const skillColor = "crimson";
 {finished && <p>I finished this tutorial!</p>}
 
 {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-</body>
-</html>
+
+    <style is:global define:vars={{ skillColor}}>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+			.skill {
+    color: var(--skillColor);
+    font-weight: bold;
+  }
+    </style>
+</BaseLayout>
