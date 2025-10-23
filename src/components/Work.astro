@@ -1,5 +1,5 @@
 ---
-const { title, url, image, background } = Astro.props;
+const { title, url, image, description } = Astro.props;
 
 ---
-<li id="work" class="work-post"><a href={url}><img src={image.url} width="50%" alt={image.alt} />{title}</a></li>
+<li id="work" class="work-post"><img src={image.url} width="auto" alt={image.alt} /><h4>{title}</h4><p>{description}</p><a href={url}>View Figma file</a></></li>

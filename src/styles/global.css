@@ -2,14 +2,25 @@
 @font-face {
   font-family: 'SaansRegular';
   src: url('../public/fonts/SaansRegular.woff') format('woff');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
+  letter-spacing: 0.04rem;
+}
+@font-face {
+  font-family: 'SaansBold';
+  src: url('../public/fonts/SaansBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  letter-spacing: 0.04rem;
 }
 
 html {
   background-color: #ffffff;
   font-family: 'SaansRegular', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.02rem;
 }
 
 body {
@@ -32,12 +43,34 @@ body {
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  padding-top: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  padding-bottom: calc(env(safe-area-inset-right, 0rem) + 4rem);
+}
+
+.avatar {
+  width: 90px;
+  height: auto;
+  border-radius: 9999px;
+  filter: grayscale(100%);
+}
+
+.bold {
+  font-family: 'SaansBold', sans-serif;
+}
+
 h1 {
+  font-weight: normal;
   margin: 1rem 0;
   font-size: 2.5rem;
 }
 
 h2 {
+  font-weight: normal;
   line-height: 1.4;
 }
 
@@ -96,14 +129,15 @@ h2 {
   padding: 10px 0;
   text-decoration: none;
   font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #0d0950;
+  color: #02020e;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  text-decoration-style: dotted;
 }
 
 :has(.menu[aria-expanded="true"]) .nav-links {

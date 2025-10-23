@@ -1,13 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: ProntoMobile - Ongoing
-author: Astro Learner
 background: #0000ff
-description: "I had some challenges, but asking in the community really helped!"
+description: "Brand development and marketing website design for startup ProntoMobile to help them attract founding customers and stand out from competitors"
 image:
     url: '../../../public/work/prontoMobile-1.webp'
-    alt: "The Astro logo on a dark background with rainbow rays."
+    alt: "Homepage of the ProntoMobile website"
 pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
 ---
 It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
