@@ -125,9 +125,15 @@ h2 {
   margin: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: 2rem;
+  grid-template-columns: repeat(12, minmax(1fr));
   row-gap: 4rem;
+}
+
+@media screen and (min-width: 767px) {
+  .work-list {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
 }
 
 .work-post {
