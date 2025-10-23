@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 client: 'TestLocally'
 year: 'Ongoing'
 background: #87A96B
-description: "Ongoing building and maintenance of a Ui design system for both their web app and marketing website."
+description: "Ongoing building and maintenance of a UI design system for both their web app and marketing website."
 image:
     url: '../../../public/work/testLocally-1.webp'
     alt: "The Astro logo on a dark background with rainbow rays."
