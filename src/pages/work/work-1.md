@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: ProntoMobile - Ongoing
+client: 'ProntoMobile'
+year: '2025'
 background: #0000ff
 description: "Brand development and marketing website design for startup ProntoMobile to help them attract founding customers and stand out from competitors"
 image:

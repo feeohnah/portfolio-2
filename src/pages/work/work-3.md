@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Digital Moment - 2024'
+client: 'Digital Moment'
+year: '2024'
 pubDate: 2022-07-01
 description: 'This is the first work of my new Astro portfolio.'
-author: 'Astro Learner'
 background: #ffab7a
 image:
     url: '../../../public/work/digitalMoment-1.webp'

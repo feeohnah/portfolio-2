@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Caladan Bio - 2024
+client: 'Caladan Bio'
+year: '2024'
 author: Astro Learner
 background: #b6fcd5
 description: "After learning some Astro, I couldn't stop!"

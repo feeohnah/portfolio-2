@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Eli’s Place - 2021
-author: Astro Learner
+client: 'Eli’s Place'
+year: '2021'
 background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"
 image:

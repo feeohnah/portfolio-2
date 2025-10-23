@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: TestLocally - Ongoing
-author: Astro Learner
+client: 'TestLocally'
+year: 'Ongoing'
 background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"
 image:

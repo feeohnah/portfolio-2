@@ -1,5 +1,12 @@
 /* Register your custom font family and tell the browser where to find it. */
 @font-face {
+  font-family: 'FrancaBook';
+  src: url('../public/fonts/FrancaBook.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'SaansRegular';
   src: url('../public/fonts/SaansRegular.woff') format('woff');
   font-weight: 400;
@@ -18,10 +25,9 @@
 
 html {
   background-color: #ffffff;
-  font-family: 'SaansRegular', sans-serif;
+  font-family: 'FrancaBook', sans-serif;
   font-weight: normal;
-  letter-spacing: 0.02rem;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.4;
 }
 
@@ -69,7 +75,7 @@ a:focus {
   align-items: center;
 }
 
-.title {
+.header-title {
   padding-right: 16px;
 }
 
@@ -97,11 +103,11 @@ a:focus {
 h1 {
   font-weight: normal;
   margin: 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: normal;
   line-height: 1.4;
   padding-bottom: calc(env(safe-area-inset-right, 0rem) + 2rem);
@@ -120,13 +126,23 @@ h2 {
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: 24px;
-  row-gap: 40px;
+  column-gap: 2rem;
+  row-gap: 4rem;
 }
 
 .work-post {
   display: list-item;
   grid-column: span 6 / span 6;
+}
+
+.work-post .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-post .title h4 {
+  padding-top: 1rem;
+  margin: 0;
 }
 
 .work-post a {

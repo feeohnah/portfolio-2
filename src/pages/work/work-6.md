@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Fondfolio - Ongoing
-author: Astro Learner
+client: 'Fondfolio'
+year: 'Ongoing'
 background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"
 image:
