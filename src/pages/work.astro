@@ -11,7 +11,9 @@ const pageTitle = "Work page";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-<ul class="work-list">
-	{allWork.map((work: any) => <Work url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} />)}
-</ul>
+<section class="container">
+	<ul class="work-list">
+		{allWork.map((work: any) => <Work url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} />)}
+	</ul>
+</section>
 </BaseLayout>

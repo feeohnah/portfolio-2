@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Fourth Work
+title: My Sixth Work
 author: Astro Learner
 background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"
 image:
-    url: '../../../public/work/testLocally-1.webp'
+    url: '../../../public/work/fondfolio-1.webp'
     alt: "The Astro logo on a dark background with rainbow rays."
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]

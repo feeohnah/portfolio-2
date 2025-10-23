@@ -5,7 +5,7 @@ author: Astro Learner
 background: #b6fcd5
 description: "After learning some Astro, I couldn't stop!"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
+    url: '../../../public/work/caladan-1.webp'
     alt: "The Astro logo on a dark background with a purple gradient arc."
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]

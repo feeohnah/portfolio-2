@@ -6,7 +6,7 @@ description: 'This is the first work of my new Astro portfolio.'
 author: 'Astro Learner'
 background: #ffab7a
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
+    url: '../../../public/work/digitalMoment-1.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
