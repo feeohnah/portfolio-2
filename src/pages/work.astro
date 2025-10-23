@@ -6,12 +6,13 @@ import '../styles/global.css';
 
 const allWork= Object.values(import.meta.glob('./work/*.md', { eager: true }));
 
-const pageTitle = "Work page";
+const pageTitle = "Work";
 
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-<section class="container">
+	<section class="container">
+	<h2>With over 12 years of experience in brand, UI and web design, I deliver high quality digital projects across a wide range of clients and sectors.</h2>
 	<ul class="work-list">
 		{allWork.map((work: any) => <Work url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} />)}
 	</ul>

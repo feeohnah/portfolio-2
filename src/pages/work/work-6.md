@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Sixth Work
+title: Fondfolio - Ongoing
 author: Astro Learner
 background: #87A96B
 description: "I had some challenges, but asking in the community really helped!"

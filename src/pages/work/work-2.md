@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: My Second Work
+title: Caladan Bio - 2024
 author: Astro Learner
 background: #b6fcd5
 description: "After learning some Astro, I couldn't stop!"

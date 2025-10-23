@@ -1,6 +1,15 @@
+/* Register your custom font family and tell the browser where to find it. */
+@font-face {
+  font-family: 'SaansRegular';
+  src: url('../public/fonts/SaansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
-  background-color: #f1f5f9;
-  font-family: sans-serif;
+  background-color: #ffffff;
+  font-family: 'SaansRegular', sans-serif;
 }
 
 body {
@@ -15,6 +24,8 @@ body {
   display: grid;
   width: 100%;
   flex: 1;
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
 }
 
 * {
@@ -26,14 +37,16 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  line-height: 1.4;
+}
+
 /* work styles */
 
 .container {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
-  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
 }
 .work-list {
   padding: 0;
