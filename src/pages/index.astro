@@ -12,7 +12,7 @@ const pageTitle = "Work";
 
 <BaseLayout pageTitle={pageTitle}>
 	<section class="container">
-	<h2>With over 12 years of experience in brand, UI and web design, I deliver high quality digital projects across a wide range of clients and sectors.</h2>
+	<h2>With over 12 years of experience in brand, UI and web design, I deliver high quality digital projects across a wide range of clients and sectors, collaborating with developers and in-house teams to bring designs to life.</h2>
 	<ul class="work-list">
 		{allWork.map((work: any) => <Work url={work.url} title={work.frontmatter.title} image={work.frontmatter.image} description={work.frontmatter.description} />)}
 	</ul>

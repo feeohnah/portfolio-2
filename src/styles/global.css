@@ -21,6 +21,8 @@ html {
   font-family: 'SaansRegular', sans-serif;
   font-weight: normal;
   letter-spacing: 0.02rem;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 body {
@@ -43,6 +45,20 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  text-decoration-style: dotted;
+  color: #02020e;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -54,7 +70,7 @@ body {
 
 .avatar {
   width: 90px;
-  height: auto;
+  height: 90px;
   border-radius: 9999px;
   filter: grayscale(100%);
 }
@@ -66,12 +82,14 @@ body {
 h1 {
   font-weight: normal;
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h2 {
+  font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.4;
+  padding-bottom: calc(env(safe-area-inset-right, 0rem) + 2rem);
 }
 
 /* work styles */
@@ -102,68 +120,26 @@ h2 {
 }
 
 .work-post img {
-  border-radius: 40px;
+  border-radius: 8px;
   width: 100%;
-}
-
-/* nav styles */
-
-.menu {
-  background-color: #0d0950;
-  border: none;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 5px 10px;
-}
-
-.nav-links {
-  width: 100%;
-  display: none;
-  margin: 0;
-}
-
-.nav-links a {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: #02020e;
-}
-
-.nav-links a:hover,
-.nav-links a:focus {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 2px;
-  text-decoration-style: dotted;
-}
-
-:has(.menu[aria-expanded="true"]) .nav-links {
-  display: unset;
-}
-
-@media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
-  .menu {
-    display: none;
-  }
+  border: 1px solid #e7e7e7;
 }
 
 /* footer styles */
 
 .footer {
-  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(env(safe-area-inset-top, 0rem) + 6rem);
+  padding-bottom: calc(env(safe-area-inset-bottom, 0rem) + 2rem);
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
 }
