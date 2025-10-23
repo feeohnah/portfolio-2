@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Digital Moment'
 year: '2024'
 pubDate: 2022-07-01
-description: 'This is the first work of my new Astro portfolio.'
+description: 'Website revitalization and content restructuring, so as to more effectively showcase their impact and streamline user access to essential resources.'
 background: #ffab7a
 image:
     url: '../../../public/work/digitalMoment-1.webp'
