@@ -4,9 +4,9 @@ import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
-   // enable the Vercel imageService
-  output: 'server',
+  // ...
+  output: 'static',
   adapter: vercel({
-  imageService: true
-   }),
+    imageService: true,
+  }),
 });
