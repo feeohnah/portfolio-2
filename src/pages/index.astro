@@ -14,7 +14,7 @@ const pageTitle = "Work";
 	<section class="container">
 	<h2>With over 12 years of experience in brand, UI and web design, I deliver high quality digital projects across a wide range of clients and sectors, collaborating with developers and in-house teams to bring designs to life.</h2>
 	<ul class="work-list">
-		{allWork.map((work: any) => <Work url={work.url} client={work.frontmatter.client} year={work.frontmatter.year} image={work.frontmatter.image} description={work.frontmatter.description} />)}
+		{allWork.map((work: any) => <Work url={work.url} client={work.frontmatter.client} year={work.frontmatter.year} image={work.frontmatter.image} description={work.frontmatter.description} background={work.frontmatter.background} />)}
 	</ul>
 </section>
 </BaseLayout>

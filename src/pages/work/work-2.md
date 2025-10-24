@@ -2,8 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Caladan Bio'
 year: '2024'
-author: Astro Learner
-background: #b6fcd5
+background: '#CCE8BA'
 description: "Working within their established brand palette, I created a UI design system for the app that powers their desktop bio reactors."
 image:
     url: '../../../public/work/caladan-1.webp'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Fondfolio'
 year: 'Ongoing'
-background: #87A96B
+background: '#57534e'
 description: "Aa self-funded venture between myself and my partner Matt. I make each book by hand and manage all of the day to day operations."
 image:
     url: '../../../public/work/fondfolio-1.webp'

@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Eli’s Place'
 year: '2021'
-background: #87A96B
+background: '#CEF6FF'
 description: "I developed a UI design system for this charity’s website and offered guidance on copy and content."
 image:
     url: '../../../public/work/elisPlace-1.webp'
