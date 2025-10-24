@@ -3,11 +3,11 @@ layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Fondfolio'
 year: 'Ongoing'
 background: '#57534e'
-description: "Aa self-funded venture between myself and my partner Matt. I make each book by hand and manage all of the day to day operations."
+link: 'https://fondfolio.com/'
+linkText: 'Visit website'
+description: "A self-funded venture between myself and my partner Matt. I make each book by hand and manage all of the day to day operations."
 image:
     url: '../../../public/work/fondfolio-1.webp'
-    alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2022-07-15
-tags: ["astro", "learning in public", "setbacks", "community"]
+    alt: "The Fondfolio website homepage, showing one of the handmade coptic-bound books on the right and some explainer text on the left."
 ---
-It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
+some text if I want to say more at some point

@@ -1,10 +1,10 @@
 ---
 
-const { background, client, year, url, image, description } = Astro.props;
+const { background, link, linkText, client, year, url, image, description } = Astro.props;
 
 ---
 
-<li id="work" class="work-post"><div class="thumbnail"><img src={image.url} width="auto" alt={image.alt} /></div><span class="title"><h4>{client}</h4><h4>{year}</h4></span><p>{description}</p><a href={url}>View Figma file</a></li>
+<li id="work" class="work-post"><div class="thumbnail"><img src={image.url} width="auto" alt={image.alt} /></div><span class="title"><h4>{client}</h4><h4>{year}</h4></span><p>{description}</p><a href={link}>{linkText}</a></li>
 
 <style define:vars={{background}}>
 .thumbnail {
