@@ -8,6 +8,6 @@ linkText: 'View Figma file'
 description: "Development of a UI design system for their website as well as guidance on copywriting and content creation. "
 image:
     url: '../../../public/work/elisPlace-1.webp'
-    alt: "The Astro logo on a dark background with rainbow rays."
+    alt: "Homepage from the Eli’s place charity website."
 ---
 Some more text

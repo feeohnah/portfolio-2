@@ -8,6 +8,6 @@ linkText: 'View Figma file'
 description: "Working within their established brand palette, I created a UI design system for the app that powers their desktop bio reactors."
 image:
     url: '../../../public/work/caladan-1.webp'
-    alt: "The Astro logo on a dark background with a purple gradient arc."
+    alt: "Screenshot from the Bioreactor UI used for monitoring the growth of cell cultures."
 ---
 Some text
