@@ -7,7 +7,7 @@ background: '#515366'
 link: 'https://fondfolio.com/'
 linkText: 'View Figma file'
 image:
-    url: '../../../public/work/digitalMoment-1.webp'
+    url: '/work/digitalMoment-1.webp'
     alt: 'The homepage of the Digital Moment website with their tagline in bold on the left and quick links to their 3 target audiences below.'
 ---
 
