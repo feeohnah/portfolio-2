@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 client: 'Corey Robinson'
 year: '2022'
 background: '#2727E6'
-link: 'https://fondfolio.com/'
+link: 'https://www.figma.com/design/MbjB46B8xX30bmAIkQX4DZ/coreyrobinson.ca?node-id=0-1&t=mwz9AWW8wVw3Nyl2-1'
 linkText: 'View Figma file'
 description: 'To showcase his research and publications I designed a new online identity for Corey, incorporating subtle references to his focus on migration.'
 image:

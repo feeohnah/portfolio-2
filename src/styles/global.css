@@ -49,6 +49,12 @@ a:focus {
   text-decoration-style: solid;
 }
 
+.disabled {
+  color: #e7e5e4;
+  pointer-events: none;
+  cursor: default;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
