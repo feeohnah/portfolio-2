@@ -11,7 +11,7 @@ html {
   background-color: #ffffff;
   font-family: 'FrancaBook', sans-serif;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -27,8 +27,8 @@ body {
   display: grid;
   width: 100%;
   flex: 1;
-  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
-  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 1.5rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 1.5rem);
 }
 
 * {
@@ -58,10 +58,10 @@ a:focus {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
-  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
-  padding-top: calc(env(safe-area-inset-right, 0rem) + 2rem);
-  padding-bottom: calc(env(safe-area-inset-right, 0rem) + 4rem);
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 1.5rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 1.5rem);
+  padding-top: calc(env(safe-area-inset-right, 0rem) + 1.5rem);
+  padding-bottom: calc(env(safe-area-inset-right, 0rem) + 3rem);
   align-items: center;
 }
 
@@ -127,11 +127,13 @@ h2 {
   row-gap: 4rem;
 }
 
-@media screen and (min-width: 767px) {
-  .work-list {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-    column-gap: 2rem;
-  }
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem 0 1.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  overflow: hidden;
 }
 
 .work-post {
@@ -154,13 +156,7 @@ h2 {
   flex-direction: column;
 }
 
-.thumbnail {
-  display: flex;
-  justify-content: center;
-  padding: 3rem 3rem 0;
-  border-radius: 1rem 1rem 0 0;
-  overflow: hidden;
-}
+
 
 .work-post img {
   border-radius: 4px 4px 0 0;
@@ -174,11 +170,10 @@ h2 {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  padding-top: calc(env(safe-area-inset-top, 0rem) + 6rem);
-  padding-bottom: calc(env(safe-area-inset-bottom, 0rem) + 2rem);
-  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
-  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem 2rem 1.5rem;
 }
 
 .footer ul {
@@ -186,5 +181,46 @@ h2 {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  gap: 24px;
+  gap: 1.5rem;
+}
+
+/* Desktop Specific Styles */
+
+@media screen and (min-width: 767px) {
+
+  html {
+  font-size: 19px;
+}
+
+  .footer {
+  padding: 6rem 2rem 2rem 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer ul {
+  gap: 3rem;
+}
+
+  .main {
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  }
+
+  .header {
+  padding-left: calc(env(safe-area-inset-left, 0rem) + 2rem);
+  padding-right: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  padding-top: calc(env(safe-area-inset-right, 0rem) + 2rem);
+  padding-bottom: calc(env(safe-area-inset-right, 0rem) + 4rem);
+}
+
+  .work-list {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 2rem;
+  }
+  .thumbnail {
+  padding: 3rem 3rem 0;
+  border-radius: 1rem 1rem 0 0;
+}
 }
